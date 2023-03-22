@@ -91,7 +91,7 @@ const Countries = () => {
         </div>
       </header>
       <h1></h1>
-      <div className="grid grid-cols-3 w-9/12 mx-auto gap-20 mt-20">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 w-9/12 mx-auto gap-20 mt-20">
         {countries.map((country) => (
           <Country country={country} key={country.cca3}></Country>
         ))}
