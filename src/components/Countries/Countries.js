@@ -91,7 +91,7 @@ const Countries = () => {
         </div>
       </header>
       <h1></h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 w-9/12 mx-auto gap-20 mt-20">
+      <div className="flex flex-col mx-auto justify-center items-center lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 lg:w-9/12 md:gap-20  gap-20 mt-20">
         {countries.map((country) => (
           <Country country={country} key={country.cca3}></Country>
         ))}
